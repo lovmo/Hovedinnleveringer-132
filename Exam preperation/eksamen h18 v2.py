@@ -8,7 +8,8 @@ lst = [3, 2, 1, 0]
 result = 0
 for i in lst:
     result = lst[i]
-print(result)
+print(result)
+
 
 # 3
 
@@ -37,7 +38,8 @@ print(trans[trans[trans[0]]], "-", trans[trans[0]])
 
 def f(n):
     return n // 2
-print(list(map(f, [2, 4, 8, 16])))
+print(list(map(f, [2, 4, 8, 16])))
+
 # [1,2,4,8]
 
 # Oppgave 6.
@@ -46,8 +48,10 @@ def even(n):
         return True
     return False
 
-print(list(map(even, [0, 1, 2, 3])))
-# [True, False, True, False]
+print(list(map(even, [0, 1, 2, 3])))
+
+# [True, False, True, False]
+
 
 # Oppgave 7.
 text = "abcd"
@@ -61,14 +65,16 @@ print(result)
 # Oppgave 8.
 tall = {"null": 0, "en": 1, "to": 2, "tre": 3, "fire": 4}
 s_key = lambda x: (len(x), tall[x])
-print(list(sorted(tall, key = s_key)))
+print(list(sorted(tall, key = s_key)))
+
 #
 # (4, 0)
 # (2, 1)
 # (2, 2)
 # (3, 3)
 # (4, 4)
-# ['en', 'to', 'tre', 'null', 'fire']
+# ['en', 'to', 'tre', 'null', 'fire']
+
 
 # Oppgave 9.
 def flip(f):
@@ -186,25 +192,3 @@ def sum_dato_priser(salg, datoer):
 
 sum_alle = sum_dato_priser(dato_d, ["03.11.2018", "03.11.2018"])
 print(sum_alle)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
