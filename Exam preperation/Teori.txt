@@ -1,0 +1,56 @@
+1.
+CPU: Kan beskrives som datamaskinens hjerne. Det er CPUen som utfører alle instruksjonen som hentes fra hurtiglageret, RAM. Dette foregår gjennom en FETCH/EXECUTE syklus. 
+
+Primærlager: Er en rask måte å lagre data midlertidig, og ligge oftest nærmest CPU’en. Årsaken til dette er fordi CPU’en benytter seg av dataen som ligger lagret på primærlageret (RAM). RAM er en volatil lagringsenhet, fordi når datamaskinen slås av, tømmes minnet. 
+
+Sekundærlager: Er en lagringsenhet som permanent lagrer data. Dette gjør det mulig å lagre større mengder med data, som kan leses og skrives. Sekundærlageret er mye tregere enn primærlageret, så for at vi skal kunne vise data raskt, allokeres dataen på sekundærlageret for å bli hentet til primærlageret. Typisk sekundærlager er en HDD-disk, CD disk, SSD osv.
+
+Variabel: En variabel er et objekt, som man kan tilegne en verdi. Eksempelvis kan vi initiere variabelen x, for så å tilegne den en verdi som for eksempel integer 4. 
+
+Min: Er en innebygd python funksjon som iterere over et itererbart objekt og returnerer den minste verdien. Funker kun på ett sett med like verdier, for eksempel en liste med kun bokstaver eller kun tall. 
+
+Operator overlastning: Er at en operator kan betyr forskjellige ting i ulike kontekster.
+
+Int: Er en innebygd funksjon i Python som returnerer et heltall. Kan kun konvertere tekststrenger av tall, eller desimaltall. 
+
+//: Angir hvor mange ganger et tall går opp i det andre og runder alltid ned. For eksempel 10//3 returnerer 3, fordi 10/3 = 3,33. 
+
+%: Returnerer restverdien ved divisjon på to tall. For eksempel 10%3 = 1, fordi 10/3 ikke gir et helt tall. Har vi ikke et helt tall, vil desimalen rundes opp og bli restverdien. 
+
+Modul: Er et eksternt bibliotek som inneholder funksjoner. En modul importeres inn i Python programmet. Funksjonene som er definert internt i modulen, kan kalles på i programmet uten at man må programmere innholdet i funksjonene. Kan også skille mellom integrerte Python moduler og eksterne moduler. 
+
+
+2. 
+De vanligste datatypene i Python er Int, Str, Float og Boolske verdier.
+
+
+3. 
+Operatorpresedens handler om hvilken rekkefølge regneoperasjoner foregår. Eksempelvis at multiplikasjon utføres før addisjon osv.
+
+
+4. 
+Boole'sk verdi (boolean): Er et sett med TRUE eller FALSE, og som returneres for å sjekke om en påstand er sann eller usann. 
+
+Avkortet evaluering: Forekommer når man har en påstand, hvor betingelsen for oppfyllelse er at minimum en betingelse er oppfylt. Påstanden vil da returnere TRUE. For eksempel:
+x = 2, y=4
+if x==2 or y<x: print(‘True’)
+Her vil første vilkår være oppfylt (x==2), og Python hopper over de andre betingelsene(y<x).
+
+Betingelse: if x==2 or y<x: …
+
+try - except setninger: Er en metode i Python som ofte benyttes for å håndtere Errors. Hovedformålet er at programmet først kjører try, og hvis koden resulterer i for eksempel en ValueError, vil den hoppe over til except. Koden kan på denne måten kjøre videre uten av Erroren bryter programmet. 
+
+if-setninger: Er metoder for å sjekke om en betingelse er oppfylt eller ikke. Kan oversetter til hvis. For eksempel hvis betingelse x er oppfylt, så skal denne prosessen kjøres. Hvis x ikke er oppfylt hopper vi videre i programmet. 
+
+Boole'ske operatorer: AND, NOT og OR.
+
+
+6.
+Funksjoner er et sett med instrukser og operasjoner som defineres en gang i koden og som kan kalles på flere ganger. En funksjon kan ta inn variabler og returnere verdier, eller utføre side operasjoner i resten av programmet. 
+
+7.
+
+
+
+
+
